@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Contos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+<div id="container">
+
+    <form>
+        <h3>Crie sua História Épica!</h3>
+        
+        <label for="nome-char">Nome:</label>
+        <input type="text" name="nome-char" id="nome-char" placeholder="Digite o nome do seu Personagem!">
+        
+        <label for="raca">Escolha a Raça do Personagem:</label>
+        <select name="raca" id="raca">
+            <option value=""></option>
+            <option value="Humano">Humano</option>
+            <option value="Elfo">Elfo</option>
+            <option value="Anão">Anão</option>
+            <option value="Hobbit">Hobbit</option>
+        </select>
+        
+        <label for="local">Selecione o Local da Aventura:</label>
+        <select name="local" id="local">
+            <option value=""></option>
+            <option value="Taverna">Taverna</option>
+            <option value="Floresta">Floresta</option>
+            <option value="Masmorra">Masmorra</option>
+            <option value="Vilarejo Deserto">Vilarejo Deserto</option>
+        </select>
+        
+        <label for="instrumento">Selecione o Item que Você Usará</label>
+        <select name="instrumento" id="instrumento">
+            <option value=""></option>
+            <option value="Espada">Espada</option>
+            <option value="Arco e Flechas">Arco e Flechas</option>
+            <option value="Alaúde">Alaúde</option>
+            <option value="Grimório de Magias">Grimório de Magias</option>
+        </select>
+        
+        <label for="tema=selec">Selecione um Tema: </label>
+        <select name="tema-selec" id="tema">
+            <option value=""></option>
+            <option value="Goblins">Goblins</option>
+            <option value="Orcs">Orcs</option>
+            <option value="Dragões">Dragões</option>
+            <option value="Bandidos">Bandidos</option>
+        </select>
+        
+        <label for="motivacao">Selecione a motivacao do Antagonista:</label>
+        <select name="motivacao" id="motivacao">
+            <option value=""></option>
+            <option value="Riqueza">Riqueza</option>
+            <option value="Poder">Poder</option>
+            <option value="Vingança">Vingança</option>
+            <option value="Um bem maior">Um bem maior</option>
+        </select>
+        
+        <button type="button" id="btn">Criar História!</button>
+        
+        
+    </form>
+</div>
+<div id="conto">
+<p id="contoP"></p>
+</div>
+</div>
+<script src="scrypt.js"></script>
+</body>
+</html>
